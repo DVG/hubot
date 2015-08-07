@@ -26,6 +26,4 @@ module.exports = (robot) ->
       "NO",
       "Seriously?"
     ]
-
-    response = responses[Math.floor(Math.random()*responses.length)];
-    res.reply response
+    res.send res.random responses
