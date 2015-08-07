@@ -1,4 +1,7 @@
 [
   "dealwithit.coffee",
-  "dice.coffee"
+  "dice.coffee",
+  "giphy.coffee",
+  "quote.coffee",
+  "weather.coffee"
 ]
