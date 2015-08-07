@@ -3,10 +3,8 @@
 module.exports = (robot) ->
 
   robot.hear /fact/i, (res) ->
-    robot.http("http://numbersapi.com/random")
-      .get() (err, res, body) ->
-        if err
-          res.send "I couldn't get a fact, sorry"
-          return
-
-        res.send body
+    robot.http("http://numbersapi.com/random").get() (err, resp, body) ->
+      if err
+        res.send "I couldn't get a fact, sorry"
+        return
+      res.send body

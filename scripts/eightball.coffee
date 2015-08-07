@@ -1,6 +1,6 @@
 # Answers questions with a magic eight ball response
 module.exports = (robot) ->
-  robot.respond /\?$/, (res) ->
+  robot.respond /.+\?$/i, (res) ->
     responses = [
       "It is certain",
       "It is decidedly so",
