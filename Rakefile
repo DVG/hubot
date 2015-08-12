@@ -9,6 +9,7 @@ namespace :hubot do
 
   task :deploy do
     system "git push heroku master"
+    system "bin/wakeup"
   end
 
   task :server do

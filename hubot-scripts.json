@@ -3,5 +3,6 @@
   "dice.coffee",
   "giphy.coffee",
   "quote.coffee",
-  "weather.coffee"
+  "weather.coffee",
+  "look-of-disapproval.coffee"
 ]
