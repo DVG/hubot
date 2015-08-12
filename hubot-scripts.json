@@ -4,5 +4,6 @@
   "giphy.coffee",
   "quote.coffee",
   "weather.coffee",
-  "look-of-disapproval.coffee"
+  "look-of-disapproval.coffee",
+  "xkcd.coffee"
 ]
