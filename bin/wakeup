@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+var HttpClient = require('scoped-http-client');
+HttpClient.create("https://catpen-hubot.herokuapp.com/heroku/keepalive")
+  .header('User-Agent', "Hubot/#{@version}")
+  .get()(function(err, resp, body) {
+    console.log("Server responded with: "+body);
+  });
