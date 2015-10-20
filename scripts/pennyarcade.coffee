@@ -1,5 +1,6 @@
 # Commands:
 #   hubot pa - The latest Penny Arcade comic
+#   hubot pa <date> - Penny Arcade comic from <date> - mm/dd/yyyy format
 
 htmlparser = require "htmlparser2"
 select = require("soupselect").select
