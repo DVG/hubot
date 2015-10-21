@@ -10,11 +10,11 @@ module.exports = (robot) ->
     if msg.match[1] == undefined
       date = ''
     else
-      date = "/#{msg.match[4]}/#{msg.match[2]}/#{msg.match[3]}/"
+      date = "/#{msg.match[4]}/#{msg.match[2]}/#{msg.match[3]}"
 
     console.log(date)
 
-    msg.http("http://penny-arcade.com/comic")
+    msg.http("http://penny-arcade.com/comic#{date}")
         .get() (err, res, body) ->
           handler = new htmlparser.DomHandler( (err, dom) ->
             if err
