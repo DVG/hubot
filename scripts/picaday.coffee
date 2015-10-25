@@ -8,12 +8,7 @@ module.exports = (robot) ->
   robot.respond /picaday/i, (msg) ->
     msg.http("http://photography.nationalgeographic.com/photography/photo-of-the-day/")
         .get() (err, res, body) ->
-          handler = new htmlparser.DomHandler( (err, dom) ->
-            if err
-              console.log("WTF just happened")
-            else
-              img = select(dom, '.primary_photo img')
-          )
+          handler = new htmlparser.DomHandler()
           parser = new htmlparser.Parser(handler)
           parser.parseComplete(body)
           img = select(handler.dom, ".primary_photo img")
