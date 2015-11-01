@@ -8,7 +8,6 @@ ackbars = [
   "http://farm6.staticflickr.com/5250/5216539895_09f963f448_z.jpg",
   "http://static.fjcdn.com/pictures/Its_2031a3_426435.jpg",
   "http://www.millionaireplayboy.com/mpb/wp-content/uploads/2011/01/1293668358_bottom_trappy.jpeg",
-  "http://31.media.tumblr.com/tumblr_lqrrkpAqjf1qiorsyo1_500.jpg",
   "https://i.chzbgr.com/maxW500/4930876416/hB0F640C6/",
   "http://i.qkme.me/356mr9.jpg",
   "http://24.media.tumblr.com/e4255aa10151ebddf57555dfa3fc8779/tumblr_mho9v9y5hE1r8gxxfo1_500.jpg",
