@@ -1,4 +1,4 @@
 module.exports = (robot) ->
 
-  robot.hear /rage|mad|angry|stupid|ridiculous|crazy|outrageous|outraged|furious|upset|dumpster fire/i, (res) ->
+  robot.respond /^rage$| rage(?=\.|!|$)|rage(?=\s)|^mad$| mad(?=\.|!|$)|mad(?=\s)|^angry$| angry(?=\.|!|$)|angry(?=\s)|dumpster fire|table flip/i, (res) ->
       res.send "(╯°□°）╯︵ ┻━┻)" 
